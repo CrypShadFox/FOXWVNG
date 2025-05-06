@@ -412,7 +412,6 @@ class EmailBrowser:
             print(body[i:i+width])
         
         print(f"\n{'=' * 80}")
-        print("Press 'l' to return to list view, 'n' for next message, 'p' for previous message")
         print(f"{'=' * 80}")
 
     def show_navigation_help(self):
